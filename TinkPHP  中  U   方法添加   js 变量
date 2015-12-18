@@ -1,0 +1,6 @@
+
+var id;//  js  变量
+window.location.href ="{:U(MODULE_NAME.'/Info/index/bid/"+id+"')}";
+
+// 添加输出变量    $v['bid']
+<a href="{:U('Pingding/index',array('bid'=>$v['bid']))}">评定计算</a>
